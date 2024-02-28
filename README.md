@@ -1,14 +1,24 @@
-# backlog
+#
 
-- Backend
-- Jeux de test
-- unit-test
-- Front-end
-- Rapport
-- Presentation
+```bash
+php artisan make:migration create_personnes_table
+```
+```bash
+php artisan make:model Formateur
+```
 
-## Références 
+```bash
+php artisan make:model Stagiaire
+```
 
-- [Rapport](https://soufiane-boukhar.github.io/lab-heritage/) 
-- [Presentation](https://soufiane-boukhar.github.io/lab-heritage/presentation.html)
+```bash
+php artisan make:seeder PersonneSeeder
+```
 
+```bash
+php artisan migrate
+```
+
+```bash
+php artisan db:seed
+```
